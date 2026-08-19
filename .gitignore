@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Raw sports data
+storage/bronze/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
