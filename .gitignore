@@ -10,7 +10,15 @@ env/
 .env.*
 
 # Raw sports data
-storage/bronze/
+# Raw sports data
+storage/bronze/**/*.json
+storage/bronze/**/*.csv
+storage/bronze/**/*.tsv
+storage/bronze/**/*.yaml
+storage/bronze/**/*.yml
+storage/bronze/**/*.zip
+storage/bronze/**/*.pgn
+storage/bronze/**/*.zst
 
 # OS / IDE
 .DS_Store
