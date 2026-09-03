@@ -17,7 +17,7 @@ S3_BASE_PATH = "bronze/football/elo/world-football-elo"
 
 # We want historical ratings around the 2018 and 2022
 # World Cups.
-YEARS = range(2017, 2024)
+YEARS = range(2018, 2027)
 
 BASE_URL = "https://www.eloratings.net"
 
