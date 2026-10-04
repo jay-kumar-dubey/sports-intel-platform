@@ -24,3 +24,20 @@ storage/bronze/**/*.zst
 .DS_Store
 .vscode/
 .idea/
+
+# Generated Parquet
+*.parquet
+
+# Cricket transformation runtime
+transformation/cricket/work/
+transformation/cricket/state/
+
+# Local validation data
+validation/t20i/matches/
+validation/t20i/deliveries/
+
+# Generated local output
+silver_output/
+
+# Spark / Hadoop local files
+*.crc
