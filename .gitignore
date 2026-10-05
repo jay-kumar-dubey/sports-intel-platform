@@ -41,3 +41,10 @@ silver_output/
 
 # Spark / Hadoop local files
 *.crc
+
+# ODI + Test cricket transformation runtime
+transformation/cricket/state_odi_test/
+transformation/cricket/work_odi_test/
+
+# Temporary local files
+tmp/
